@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "paths": {
+    "/upload": {
+      "name": "/upload",
+      "lambdaFunction": "uploadLambda",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "read"
+        ]
+      }
+    },
+    "/download": {
+      "name": "/download",
+      "lambdaFunction": "downloadLambda",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "read"
+        ]
+      }
+    }
+  }
+}

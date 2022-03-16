@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nxtfis-dev-125409-authRole",
+      "UnauthRoleArn": "arn:aws:iam::197272325524:role/amplify-nxtfis-dev-125409-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::197272325524:role/amplify-nxtfis-dev-125409-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-nxtfis-dev-125409-deployment",
+      "UnauthRoleName": "amplify-nxtfis-dev-125409-unauthRole",
+      "StackName": "amplify-nxtfis-dev-125409",
+      "StackId": "arn:aws:cloudformation:us-west-2:197272325524:stack/amplify-nxtfis-dev-125409/d9fce390-a562-11ec-afda-0a519e3980ff",
+      "AmplifyAppId": "d36er3fjxllbcd",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-nxtfis-dev-125409-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "undefined": {},
+        "nxtfis": {}
+      },
+      "function": {
+        "downloadLambda": {
+          "deploymentBucketName": "amplify-nxtfis-dev-125409-deployment",
+          "s3Key": "amplify-builds/downloadLambda-55506656637a454b622b-build.zip"
+        },
+        "uploadLambda": {
+          "deploymentBucketName": "amplify-nxtfis-dev-125409-deployment",
+          "s3Key": "amplify-builds/uploadLambda-39474a6539456161712f-build.zip"
+        }
+      }
+    }
+  }
+}
